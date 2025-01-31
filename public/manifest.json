@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Word Lookup Tool",
+  "version": "1.0",
+  "description": "Select a word , Right click and click the extension icon to get its meaning, synonyms, and translations.",
+  "permissions": ["activeTab", "contextMenus", "storage", "scripting"],
+  "host_permissions": [
+    "https://api.dictionaryapi.dev/*",
+    "https://api.mymemory.translated.net/*"
+],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  }
+}
