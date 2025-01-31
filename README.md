@@ -1,8 +1,39 @@
-# React + Vite
+# Word Lookup Tool (Chrome Extension)
+A Chrome extension that allows users to easily look up definitions, synonyms, and translations for any word they highlight on a webpage. Whether you're reading an article, browsing a website, or exploring new content, this extension helps you quickly get the meanings and translations you need without leaving the page.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- **Word Highlight & Lookup**: Simply select a word on any webpage, Right click and click the extension "Word lookup" to view its definition, synonyms, and translation.
+- **User-Friendly Interface**: The extension displays results directly in a clean, easy-to-read format without navigating away from the page.
 
-Currently, two official plugins are available:
+## Tech Stack
+React JS, CSS, MyMemory API, Dictionary API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Use
+
+### 1. Clone the Repository
+Clone the repository to your local machine:
+```bash
+git clone https://github.com/snehashirke22/Random-Quotes-Generator.git
+```
+
+### 2. Navigate to the project folder
+Navigate to the project directory:
+```bash
+cd Random-Quotes-Generator
+```
+
+### 3. Build the Extension
+Run the following command to create a production build:
+```bash
+npm run build
+```
+This will create a dist/ folder with the production-ready files.
+
+### 4. Upload the Extension to Chrome
+- Open Chrome Extensions by navigating to chrome://extensions/ in your browser.
+- Enable Developer mode at the top right.
+- Click "Load unpacked" and select the dist/ folder from your project directory.
+
+### 5. Use the Extension
+- After uploading, click on the extension icon in your browser toolbar.
+- A random inspirational quote will appear in the extension popup every time you click the button on it.
