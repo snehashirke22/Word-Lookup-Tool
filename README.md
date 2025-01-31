@@ -1,6 +1,8 @@
 # Word Lookup Tool (Chrome Extension)
 A Chrome extension that allows users to easily look up definitions, synonyms, and translations for any word they highlight on a webpage. Whether you're reading an article, browsing a website, or exploring new content, this extension helps you quickly get the meanings and translations you need without leaving the page.
 
+![{D6116B34-F5E7-415C-8ED1-71FE1D51EAAC}](https://github.com/user-attachments/assets/7eae4a0e-a069-4e86-a015-b549b9e00fee)
+
 ## Features
 - **Word Highlight & Lookup**: Simply select a word on any webpage, Right click and click the extension "Word lookup" to view its definition, synonyms, and translation.
 - **User-Friendly Interface**: The extension displays results directly in a clean, easy-to-read format without navigating away from the page.
